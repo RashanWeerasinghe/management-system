@@ -5,6 +5,8 @@
  */
 package inf;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Rashan
@@ -78,7 +80,8 @@ public class login extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 300));
 
-        pack();
+        setSize(new java.awt.Dimension(418, 347));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void unameboxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_unameboxActionPerformed
@@ -91,8 +94,22 @@ public class login extends javax.swing.JFrame {
 
     private void loginbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginbtnActionPerformed
         // TODO add your handling code here:
-        mainframe m1=new mainframe();
-        m1.setVisible(true);
+         String uname;
+         String pword;
+         
+         uname=unamebox.getText();
+         pword=pwordbox.getText();
+         
+         if(uname.equals("Rashan")&&pword.equals("123")){
+             
+              mainframe m1=new mainframe();
+              m1.setVisible(true);
+              this.dispose();
+         }else{
+             
+             JOptionPane.showMessageDialog(null,"username or password wrong");
+         }
+         
     }//GEN-LAST:event_loginbtnActionPerformed
 
     /**
