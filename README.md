@@ -29,7 +29,8 @@ Ensure that you have the following prerequisites installed before running the pr
 - MySQL database
 - NetBeans (optional, for design)
 - Any other specific dependencies
-Getting Started
+
+## Getting Started
 
 To get started with the Management System:
 
@@ -40,10 +41,12 @@ Set up the database:
     Initialize the database schema using the provided SQL scripts.
 
 Compile and run the project:
-Usage
+
+## Usage
 
 Use the Management System to manage your data efficiently. Follow the CRUD operations to interact with the system.
-MVC Architecture
+
+## MVC Architecture
 
 The project follows the Model-View-Controller (MVC) pattern for clean separation of concerns.
 
@@ -51,15 +54,18 @@ The project follows the Model-View-Controller (MVC) pattern for clean separation
     View: Represents the user interface designed with javax.swing.UIManager.
     Controller: Manages user input and controls the flow of data between the Model and View.
 
-Database (MySQL JDBC)
+## Database (MySQL JDBC)
 
 MySQL JDBC is used for database connectivity. SQL queries and data models are implemented to manage data efficiently.
-Design with NetBeans
+
+## Design with NetBeans
 
 The user interface is designed using NetBeans and javax.swing.UIManager. It includes various UI components, layouts, and styling for an intuitive user experience.
-Contributing
+
+## Contributing
 
 We welcome contributions! If you'd like to contribute to the Management System, please follow our contribution guidelines.
-License
+
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
